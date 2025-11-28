@@ -37,11 +37,11 @@ allowed_ssh_ips = ["0.0.0.0/0"]  # Replace with your IP for production
 # ============================================================================
 # IAM ACCESS CONFIGURATION - Grant Console Access
 # ============================================================================
-# Add your IAM uarn:aws:iam::923102106536:user/laura"
+# Add your IAM "
 additional_iam_users = [
   {
-    userarn  = "arn:aws:iam::923102106536:user/laura"  # REPLACE THIS
-    username = "laura"
+    userarn  = "arn:aws:iam::923102106536:user/grad-team  # REPLACE THIS
+    username = "grad-team"
     groups   = ["system:masters"]
   }
 ]
