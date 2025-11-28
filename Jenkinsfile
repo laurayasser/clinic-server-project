@@ -11,7 +11,7 @@ pipeline {
 
                 echo "🔹 Checking out repository..."
 
-                git branch: 'main', url: 'https://github.com/laurayasser/HelloApp-jenkins.git'
+                git branch: 'main', url: 'https://github.com/laurayasser/clinic-server-project.git'
 
             }
 
